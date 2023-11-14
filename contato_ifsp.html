@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Envie um E-mail</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulário de contato</legend>
+
+            <label for="nome">Nome*</label>
+            <br><input type="text" id="nome" name="nome">
+            <br>
+
+            <label for="email">Email*</label>
+            <br><input type="email" id="email">
+            <br>
+
+            <label for="assunto">Assunto*</label>
+            <br><input name="assunto" id="assunto" rows="10" cols="50" required><br>
+
+            <label for="mensagem">Mensagem*</label>
+            <br><textarea name="mensagem" id="mensagem" rows="10" cols="50" required></textarea><br>
+
+            <label>
+            <input type="checkbox" name="copia" value="mensagem"> Enviar cópia da mensagem.
+            </label>
+            <br>
+
+            <label>
+            <input type="submit" value="Enviar E-mail">
+            </label>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
